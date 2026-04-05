@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset & base styles */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
+
+/* Dark mode support */
+.dark body {
+  @apply bg-gray-950 text-gray-100;
+}
+
+/* Smooth font rendering */
+* {
+  @apply box-border;
+}
+
+/* Scrollbar styling (clean minimal) */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d1d5db;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #374151;
+}
+
+/* Remove default focus outline and use subtle one */
+:focus {
+  outline: none;
+}
+
+/* Better focus visibility */
+input:focus,
+select:focus,
+button:focus {
+  @apply ring-1 ring-gray-400;
+}
+
+input,
+select,
+textarea {
+  @apply bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border border-gray-300 dark:border-gray-700;
+}
+
+::placeholder {
+  @apply text-gray-400 dark:text-gray-500;
+}
