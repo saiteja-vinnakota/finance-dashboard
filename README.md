@@ -182,6 +182,3 @@ This project is created for educational and evaluation purposes.
 ## 👨‍💻 Author
 
 Developed by **Sai Teja Vinnakota**
-=======
-# finance-dashboard
->>>>>>> 4c9008b (Initial commit)
