@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💰 Finance Dashboard
 
 A responsive and interactive finance dashboard built using React. This application helps users track financial activity, manage transactions, and gain insights into spending patterns.
@@ -181,3 +182,6 @@ This project is created for educational and evaluation purposes.
 ## 👨‍💻 Author
 
 Developed by **Sai Teja Vinnakota**
+=======
+# finance-dashboard
+>>>>>>> 4c9008b (Initial commit)
